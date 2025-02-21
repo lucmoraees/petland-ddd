@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.petland</groupId>
 	<artifactId>petland-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>petland-api</name>
 	<description>Projeto backend para uma plataforma de Petshop</description>
 	<url/>
@@ -43,7 +43,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
